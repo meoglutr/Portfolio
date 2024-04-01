@@ -9,12 +9,17 @@ import Projects from "./pages/Projects";
 function App() {
   return (
     <>
-      <Header />
-      <Routes>
-        <Route index path="/" element={<Home />} />
-        <Route index path="/about" element={<About />} />
-        <Route index path="/projects" element={<Projects />} />
-      </Routes>
+      <div
+        className="bg-cover bg-center min-h-screen"
+        style={{ backgroundImage: `url("src/images/Background.jpg")` }}
+      >
+        <Header />
+        <Routes>
+          <Route index path="/" element={<Home />} />
+          <Route index path="/about" element={<About />} />
+          <Route index path="/projects" element={<Projects />} />
+        </Routes>
+      </div>
     </>
   );
 }
