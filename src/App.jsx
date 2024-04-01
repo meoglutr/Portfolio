@@ -7,10 +7,9 @@ import About from "./pages/About";
 import Projects from "./pages/Projects";
 
 function App() {
-
   return (
     <>
-      < Header />
+      <Header />
       <Routes>
         <Route index path="/" element={<Home />} />
         <Route index path="/about" element={<About />} />
