@@ -9,7 +9,7 @@ import Contact from "./pages/Contact";
 function App() {
   return (
     <>
-      <div className="bg-cover bg-center min-h-screen w-full">
+      <div className="bg-cover bg-center min-h-screen w-full bg-[#455A64]">
         <Header />
         <Routes>
           <Route index path="/" element={<Home />} />

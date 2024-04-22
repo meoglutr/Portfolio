@@ -34,21 +34,18 @@ function Footer() {
     { name: "Anasayfa", href: "/" },
     { name: "Hakkımda", href: "/about" },
     { name: "Projelerim", href: "/projects" },
-    { name: "İletişim", href: "/contact" },
-    { name: "Cv İndir", href: "" },
   ];
   return (
-    <footer className="bg-gray-800 text-white p-5">
+    <footer className="bg-[#37474F] text-white p-5">
       <div className="container mx-auto">
-        <div className="flex justify-between">
-          <div>
+        <div className="flex flex-col lg:flex-row justify-between">
+          <div className="mb-6 lg:mb-0 lg:w-1/3">
             <h2 className="text-lg font-semibold mb-2">İletişim Bilgileri</h2>
             <p>Adres: Akdam Mahallesi Hisarcık caddesi</p>
             <p className="mt-1"> 5877. sokak Hacılar/Kayseri</p>
-
             <p className="mt-1">E-posta: mehmeteoglutr@gmail.com</p>
           </div>
-          <div>
+          <div className="mb-6 lg:mb-0 lg:w-1/3">
             <h2 className="text-lg font-semibold mb-2">Hızlı Bağlantılar</h2>
             <ul>
               {links.map((link, index) => (
@@ -64,7 +61,7 @@ function Footer() {
               ))}
             </ul>
           </div>
-          <div>
+          <div className="lg:w-1/3">
             <h2 className="text-lg font-semibold mb-2">Sosyal Medya</h2>
             <ul>
               {socialMedya.map((link, index) => (
@@ -76,7 +73,7 @@ function Footer() {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      <i className="mr-2"> {link.icon}</i> {link.name}
+                      <i className="mr-2">{link.icon}</i> {link.name}
                     </a>
                   ) : (
                     <span className="flex items-center">
@@ -85,13 +82,6 @@ function Footer() {
                   )}
                 </li>
               ))}
-
-              <li>
-                {/* <a className="flex items-center" href="#">
-                  <FaXTwitter className="mr-1" />
-                  Twitter
-                </a> */}
-              </li>
             </ul>
           </div>
         </div>
