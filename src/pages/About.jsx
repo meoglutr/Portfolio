@@ -48,16 +48,16 @@ function About() {
         </div>
         <div className="m-6">
           <p>
+           Freelancer olarak tamamladığım web sitesini görmek için <a href="https://imdatogullarigida.com/" className="underline text-black"> "imdatogullarigida"</a> adresine göz atabilirsiniz.
+            
+          </p>
+        </div>
+        <div className="m-6">
+          <p>
             Ayrıca, kişisel gelişimime katkı sağlamak amacıyla çeşitli projeler
             üzerinde çalışıyor ve bu projeleri GitHub hesabımda paylaşıyorum.
-            GitHub hesabıma göz atmak isterseniz,
-            <a
-              href="GitHub hesabı linki"
-              className="text-blue-500 hover:underline"
-            >
-              şu linkten
-            </a>{" "}
-            erişebilirsiniz.
+            GitHub hesabıma göz atmak isterseniz sosyal medya hesaplarımdan bulabilirsiniz.
+            
           </p>
         </div>
       </div>

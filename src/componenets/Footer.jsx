@@ -44,6 +44,8 @@ function Footer() {
             <p>Adres: Akdam Mahallesi Hisarcık caddesi</p>
             <p className="mt-1"> 5877. sokak Hacılar/Kayseri</p>
             <p className="mt-1">E-posta: mehmeteoglutr@gmail.com</p>
+            <p className="mt-1">E-posta: info@mehmetelifoglu.com</p>
+
           </div>
           <div className="mb-6 lg:mb-0 lg:w-1/3">
             <h2 className="text-lg font-semibold mb-2">Hızlı Bağlantılar</h2>

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import pdfUrl from "../Mehmet_Elifoglu_Cv.pdf";
+import pdfUrl from "/Mehmet-Elifoğlu.pdf";
 
 function Home() {
   return (
